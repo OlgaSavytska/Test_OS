@@ -1,0 +1,294 @@
+.header-section {
+  background-image: url('../../images/Ellipse\ 5\ копия\ 9.png');
+  background-size: cover;
+  max-width: 375px;
+}
+
+.container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo-img {
+  width: 40px;
+  height: 11px;
+  display: block;
+}
+
+.burger-menu_secret_button {
+  // background-color: white;
+  // background-image: url('../../images/icon_menu.png') cover;
+  width: 23px;
+  height: 15px;
+}
+
+.burger-menu_secret {
+  display: none;
+}
+
+.nav_title {
+  color: #ffffff;
+  font-family: 'Open sans';
+}
+
+.nav_title_text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav_title-description {
+  font-size: 12px;
+}
+
+
+// .header-logo-nav{
+//   display: flex;
+//   flex-flow: wrap;
+//   justify-content: space-between;
+//   align-items: center;
+//   // height: 110px;
+//   padding: 20px 0 20px 0;
+// }
+
+// .header-section{
+//   background: url("../images/header-background.png");
+//   background-size: cover;
+//   background-position: center;
+// }
+
+// .logo-img{
+//   display: block;
+//   height: 90px;
+//   width: 150px;
+//   // background-color: black;
+// }
+
+// .header-nav{
+//  display: flex;
+//  flex-flow: row wrap;
+//  justify-content: space-between;
+//  width: 910px;
+
+// }
+
+// .nav__links{
+//   text-decoration: none;
+//   text-transform: uppercase;
+//   color: #fff;
+//      font-family: 'Gentium Book Basic';
+//      font-weight:700;
+//   &:hover{
+//       color: #dab33e;
+//       transition: all .5s linear;
+//       text-shadow: 1px 1px #00000088;
+//   }
+// }
+
+// .header-svg{
+//   display: block;
+//   height: 20px;
+//   width: 20px;
+//   fill: #dab33e;
+//   &:hover{
+//       fill: #ffffff;
+//       transition: all .5s linear;
+//   }
+// }
+
+// .header-txt-btn{
+//   display: flex;
+//   flex-flow: column wrap;
+//   justify-content: center;
+//   align-items: center;
+//   padding-top: 97px;
+//   padding-bottom: 97px;
+//   text-align: center;
+//   font-family: 'Lato';
+//   font-weight: 400;
+// }
+
+// .header-title{
+//   font-size: 90px;
+//   font-family: 'Yeseva One';
+//   font-weight: 400;
+//   color: #fff;
+//   width: 970px;
+//   &::after{
+//       content: url('../images/header-divider.png');
+//       display: block;
+//       padding: 0 auto;
+//       margin: 0 auto;
+//       width: 230px;
+//       height: 43px;
+//       // margin-bottom: 30px;
+//   }
+// }
+// .header-btn{
+//   width: 230px;
+//   height: 56px;
+//   margin: 30px 0 30px 0;
+//   color: #fff;
+//   text-transform: uppercase;
+//   border: 1px solid #fff;
+//   background-color: rgba(255, 255, 255, 0.247);
+//   &:hover{
+//       border: 1px solid #000;
+//       background-color: rgba(0, 0, 0, 0.247);
+//       cursor: pointer;
+//       transition: all .5s linear;
+//   }
+// }
+// .header-media-nav{
+//   display: none;
+// }
+
+// @media screen and (min-width: 320px) and (max-width: 767px){
+// .nav__links{
+//   display: none;
+// }
+// .media-nav-header{
+//   position: relative;
+// }
+// .header-media-nav{
+//   display: flex;
+//   position: absolute;
+//   top: 2.5%;
+//   left: 0;
+//   width: 80px;
+//   height: 80px;
+// }
+// .svg-media-header{
+//   fill: #fff;
+//   &:hover{
+//     fill: #dab33e;
+//   transition: all .5s linear;}
+// }
+
+// .logo{
+//   display: flex;
+//   margin: 0 auto;
+//   padding-top: 150px;
+//   align-items: flex-end;
+// }
+// .logo-img{
+//   width: auto;
+//   height: 170px;
+// }
+// .header-txt-btn{
+//   display: flex;
+//   flex-flow: column;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 0;
+// }
+// .header-title{
+//   display: flex;
+//   flex-flow: column;
+//   width: 80%;
+//   text-align: center;
+//   font-size: 44px;
+//   margin: 0;
+//   }
+//   .header-buttons{
+//     position: absolute;
+//     top: 0;
+//     right: 10px;
+//     display: flex;
+//     // justify-items:flex-end;
+//   }
+//   .header-btn{
+//   width: 100px;
+//   height: 56px;
+//   margin-left: 15px;
+//   }
+
+// }
+// @media screen and (min-width: 768px) and (max-width: 1023px){
+//   .nav__links{
+//     display: none;
+//   }
+//   .media-nav-header{
+//     position: relative;
+//   }
+//   .header-media-nav{
+//     display: flex;
+//     position: absolute;
+//     top: 2%;
+//     left: 0;
+//     width: 80px;
+//     height: 80px;
+
+//   }
+//   .svg-media-header{
+//     fill: #fff;
+//     &:hover{
+//       fill: #dab33e;
+//     transition: all .5s linear;
+//   cursor: pointer;}
+//   }
+
+//   .logo{
+//     display: flex;
+//     margin: 0 auto;
+//     padding-top: 150px;
+//     align-items: flex-end;
+//   }
+//   .logo-img{
+//     width: auto;
+//     height: 180px;
+//   }
+//   .header-txt-btn{
+//     display: flex;
+//     flex-flow: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 0;
+//   }
+//   .header-title{
+//     display: flex;
+//     flex-flow: column;
+//     width: 60%;
+//     text-align: center;
+//     font-size: 60px;
+//     margin: 0;
+//     }
+//     .header-buttons{
+//       position: absolute;
+//       top: 0;
+//       right: 10px;
+//       display: flex;
+//     }
+//     .header-btn{
+//     width: 200px;
+//     height: 56px;
+//     margin-left: 20px;
+//     }
+
+// }
+
+// @media screen and (min-width: 1024px) and (max-width: 1400px){
+
+//   .header-nav{
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: space-between;
+//     width: 700px;
+//     padding-right: 30px;
+//    }
+//   //  .logo{
+//   //    padding-left: 30px;
+//   //  }
+//   .container{
+//     max-width: 960px;
+//   }
+//    .header-title{
+//     display: flex;
+//     flex-flow: column;
+//     width: 50%;
+//     text-align: center;
+//     font-size: 50px;
+//     margin: 0;
+//     }
+// }

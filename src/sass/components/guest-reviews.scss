@@ -1,0 +1,65 @@
+.guest-reviews-section {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background: url('../images/background-reviews.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.guest-rew-words {
+  display: block;
+  padding: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 770px;
+
+}
+
+.guest-rew_title {
+  font-family: 'Yeseva One';
+  font-size: 36px;
+
+  &::after {
+    display: block;
+    content: url('../images/footer-divider.png');
+    margin: 10px;
+  }
+}
+
+.guest-rew_p {
+  font-family: 'Gentium Book';
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 620px;
+  line-height: 40px;
+  margin: 0 auto;
+  padding: 10px 20px 0 32px;
+  position: relative;
+&::before {
+    display: block;
+    content: url('../images/dush.png');
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+}
+
+.guest-rew-author {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 320px)  {
+  .guest-rew-words {
+    padding: 40px 10px 80px 10px;
+  }
+  .guest-reviews-section {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+}

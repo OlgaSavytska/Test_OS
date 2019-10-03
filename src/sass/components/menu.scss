@@ -1,0 +1,134 @@
+.menu-section {
+  background: url('../images/background-menu.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.menu_items_main {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+
+// @media screen and (min-width: 1200px) {
+//     .special-offer::before {
+//        left: ;
+//     }
+
+
+
+
+.menu_items_first {
+  display: flex;
+  flex-flow: column;
+}
+
+.menu_items_second {
+  display: flex;
+  flex-flow: column;
+}
+
+.special-offer {
+  display: block;
+  position: relative;
+  border: 1px solid #cc9900;
+
+  //     &::after{
+  //     content: '';
+  //     display: block;
+  //     position: absolute;
+  //     left: -15px;
+  //     top: 8px;
+  //     width: 455px;
+  //     height: 82px;
+  //     border: 1px solid #cc9900;
+  // }
+  &::before {
+    content: 'Special';
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: #d6ba6a;
+    height: 22px;
+    width: 70px;
+    position: absolute;
+    right: -1px;
+    top: -22px;
+  }
+}
+
+
+
+.menu-item-self {
+  max-width: 430px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px 15px 15px 15px;
+}
+
+.menu_items-title {
+  color: #cc9900;
+  font-size: 36px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px 0 15px 0;
+  text-align: center;
+
+  &::after {
+    content: url('../images/menu-divider.png');
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+.menu-position {
+  color: #cc9900;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.menu-price {
+  color: #cc9900;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.menu-description {
+  color: #000;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 0 10px 0;
+
+  &::before {
+    content: '';
+    max-width: 430px;
+    background-color: #cc99004f;
+    height: 1px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 991px)  {
+  .menu_items_main {
+    flex-flow: column;
+    padding: 15px 2px 15px 2px;
+  }
+  .menu-description {
+    font-size: 20px;
+  }
+}

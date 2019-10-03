@@ -1,0 +1,134 @@
+.fine-ingredients-section {
+  background: url('../images/background-fine-ingredients.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.f-i-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+.fine-ingredients {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 570px;
+  max-height: 555px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.fine-ingredients-img {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 50px 0 50px 0;
+}
+
+.f-i-img {
+  width: 102px;
+  height: 102px;
+  margin: 0 20px 0 20px;
+}
+
+.fine-ingredients-title {
+  font-size: 36px;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 20px;
+  &::after {
+    content: url('../images/reviews-divider.png');
+    display: block;
+    margin: 20px 0 20px 0;
+  }
+}
+
+.fine-ingredients-txt {
+  font-size: 16px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  //  max-width: 620px;
+  width: 80%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .f-i-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+  }
+  .fine-ingredients {
+    display: block;
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 95%;
+  }
+  .fine-ingredients-txt {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+  .f-i-img {
+    width: 70px;
+    height: 70px;
+    margin: 0 4px 0 4px;
+  }
+  .fine-ingredients-img {
+    padding: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .fine-ingredients-title {
+    font-size: 36px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 10px;
+    &::after {
+      content: url('../images/reviews-divider.png');
+      display: block;
+      margin: 0 0 20px 0;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .fine-ingredients {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .f-i-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+    text-align: center;
+  }
+  .fine-ingredients-title {
+    font-size: 36px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 30px;
+    &::after {
+      content: url('../images/reviews-divider.png');
+      display: block;
+      margin: 0 0 20px 0;
+    }
+  }
+  .fine-ingredients-txt{
+      font-size: 20px;
+  }
+}
