@@ -42,5 +42,9 @@
     "gulp-svgstore": "^7.0.1",
     "gulp-uglify": "^3.0.2",
     "stylelint": "^9.10.1"
+  },
+  "dependencies": {
+    "mixin-deep": "^2.0.1",
+    "set-value": "^3.0.1"
   }
 }
