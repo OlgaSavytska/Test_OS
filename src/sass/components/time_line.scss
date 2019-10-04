@@ -1,5 +1,5 @@
 .timeline {
-
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,10 @@
 .item-1 {
   transform: rotate(72deg) translate(100px);
   transition: all 2s;
-  background-color: aqua;
+  /* background-color: aqua; */
+  color: azure;
+  width: 20px;
+  border: 2px solid blue;
 
 
   &:hover {
