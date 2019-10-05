@@ -50,15 +50,16 @@
 .pre_timeline-title {
   font-family: 'open sans';
   color: #ffd7f1;
-  font-size: 17px;
-  width: 161px;
+  font-size: 20px;
+  width: 189px;
   margin: auto;
-  margin-bottom: 48px;
+  margin-bottom: 192px;
 }
 
 .pre_title-2001 {
-  display: block;
-  margin-bottom: 45px;
+  opacity: none;
+  display: none;
+  margin-bottom: 133px;
 
 }
 
@@ -98,41 +99,45 @@
 }
 
 .pre_title-2004 {
+  opacity: none;
   display: none;
   margin-bottom: 45px;
 }
 
 .pre_title-2006 {
+  opacity: none;
   display: none;
   margin-bottom: 45px;
 }
 
 .pre_title-2007 {
+  opacity: none;
   display: none;
   margin-bottom: 45px;
 }
 
-.pre_title-2011 {
-  display: none;
-  margin-bottom: 45px;
-}
+
 
 .pre_title-2012 {
+  opacity: none;
   display: none;
   margin-bottom: 45px;
 }
 
 .pre_title-2015 {
+  opacity: none;
   display: none;
   margin-bottom: 45px;
 }
 
 .pre_title-2017 {
+  opacity: 0;
   display: none;
   margin-bottom: 45px;
 }
 
 .pre_title-today {
+  opacity: none;
   display: none;
   margin-bottom: 45px;
 }
@@ -152,10 +157,10 @@
 
 .circle {
   display: block;
-  width: 700px;
+  width: 668px;
   height: 689px;
   position: relative;
-  margin-left: -246px;
+  margin-left: -228px;
   border-radius: 135%;
   border: solid 1px white;
 }
@@ -174,10 +179,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid 1px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 15.5px;
+  color: #d5d5d5;
 
 }
 
@@ -187,13 +193,9 @@
 }
 
 .item-1 {
-  transform: rotate(72deg) translate(100px);
-  transition: all 2s;
-  /* background-color: aqua; */
+  transform: rotate(296deg) translate(375px);
   color: #d5d5d5;
   width: 20px;
-  border: 2px solid blue;
-
 
   &:hover {
     transform: rotate(-5deg) translate(100px);
@@ -212,44 +214,65 @@
 
 
 .item-2 {
-  transform: rotate(144deg) translate(100px);
-  transition: all 2s;
+  transform: rotate(291deg) translate(375px);
+  /* transition: all 2s; */
   color: #d5d5d5;
+  font-size: 15.5px;
 }
 
 .item-3 {
-  transform: rotate(216deg) translate(100px);
-  transition: all 2s;
+  transform: rotate(284deg) translate(375px);
+  /* transition: all 2s; */
   color: #d5d5d5;
+  font-size: 15.5px;
 }
 
 .item-4 {
-  transform: rotate(288deg) translate(100px);
+  transform: rotate(277deg) translate(375px);
   color: #d5d5d5;
+  font-size: 15.5px;
 }
 
 .item-5 {
-  transform: rotate(360deg) translate(100px);
+  transform: rotate(269deg) translate(375px);
   color: #d5d5d5;
+  font-size: 15.5px;
+
+  &:hover {
+    color: #bb8caa;
+  }
+
+  &:hover~.pre_title-2011 {
+    display: block;
+    opacity: 1;
+    display: block;
+  }
+}
+
+.pre_title-2011 {
+  display: block;
+  opacity: 0;
+  margin-bottom: 45px;
 }
 
 .item-6 {
-  transform: rotate(400deg) translate(100px);
+  transform: rotate(261deg) translate(375px);
   color: #d5d5d5;
+  font-size: 15.5px;
 }
 
 .item-7 {
-  transform: rotate(420deg) translate(100px);
+  transform: rotate(-107deg) translate(375px);
   color: #d5d5d5;
 }
 
 .item-8 {
-  transform: rotate(460deg) translate(100px);
+  transform: rotate(966deg) translate(375px);
   color: #d5d5d5;
 }
 
 .item-9 {
-  transform: rotate(480deg) translate(100px);
+  transform: rotate(599deg) translate(385px);
   color: #d5d5d5;
 }
 
