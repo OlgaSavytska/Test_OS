@@ -541,13 +541,15 @@ img {
 .pre_timeline-title {
   font-family: 'open sans';
   color: #ffd7f1;
-  font-size: 20px;
-  width: 213px;
+  font-size: 17px;
+  width: 161px;
   margin: auto;
+  margin-bottom: 48px;
 }
 
 .pre_title-2001 {
   display: block;
+  margin-bottom: 45px;
 }
 
 .pre_title-text {
@@ -562,6 +564,7 @@ img {
   text-align: center;
   line-height: 1.409;
   position: relative;
+  margin-right: 20px;
 }
 
 .pre_title-text::before {
@@ -574,40 +577,54 @@ img {
   background: linear-gradient(-3deg, #ffafe3 0%, #fa2cb0 100%);
   background: linear-gradient(-3deg, #ffafe3 0%, #fa2cb0 100%);
   position: absolute;
-  left: 39px;
+  left: 24px;
   bottom: 28px;
+}
+
+.pre_title-descr {
+  font-size: 10px;
+  color: #bb9eb1;
+  margin-left: 81px;
 }
 
 .pre_title-2004 {
   display: none;
+  margin-bottom: 45px;
 }
 
 .pre_title-2006 {
   display: none;
+  margin-bottom: 45px;
 }
 
 .pre_title-2007 {
   display: none;
+  margin-bottom: 45px;
 }
 
 .pre_title-2011 {
   display: none;
+  margin-bottom: 45px;
 }
 
 .pre_title-2012 {
   display: none;
+  margin-bottom: 45px;
 }
 
 .pre_title-2015 {
   display: none;
+  margin-bottom: 45px;
 }
 
 .pre_title-2017 {
   display: none;
+  margin-bottom: 45px;
 }
 
 .pre_title-today {
   display: none;
+  margin-bottom: 45px;
 }
 
 .block_timeline {
