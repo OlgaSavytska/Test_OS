@@ -1,4 +1,4 @@
-* {
+div.footer_test {
   background-image: url('../../images/Ellipse\ 5\ копия\ 9.png');
   background-size: cover;
   max-width: 375px;
@@ -8,6 +8,7 @@
   padding: 30px;
   display: flex;
   justify-content: space-between;
+
 }
 
 
@@ -45,6 +46,126 @@
   margin: 0 auto;
 }
 
+.timeline {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 50%;
+  border: solid 1px white;
+
+}
+
+.menu-trigger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.circle:hover>.item {
+  visibility: visible;
+  opacity: 1;
+}
+
+.item-1 {
+  transform: rotate(72deg) translate(100px);
+  transition: all 2s;
+  /* background-color: aqua; */
+  color: azure;
+  width: 20px;
+  border: 2px solid blue;
+
+
+  &:hover {
+    transform: rotate(-5deg) translate(100px);
+
+    &:hover~.item-2 {
+      background-color: red;
+      transform: rotate(60deg) translate(100px);
+    }
+
+    &:hover~.item-3 {
+      background-color: blue;
+      transform: rotate(60deg) translate(100px);
+    }
+  }
+}
+
+
+.item-2 {
+  transform: rotate(144deg) translate(100px);
+  transition: all 2s;
+}
+
+.item-3 {
+  transform: rotate(216deg) translate(100px);
+  transition: all 2s;
+}
+
+.item-4 {
+  transform: rotate(288deg) translate(100px);
+}
+
+.item-5 {
+  transform: rotate(360deg) translate(100px);
+}
+
+.item-6 {
+  transform: rotate(400deg) translate(100px);
+}
+
+.item-7 {
+  transform: rotate(420deg) translate(100px);
+}
+
+.item-8 {
+  transform: rotate(460deg) translate(100px);
+}
+
+.item-9 {
+  transform: rotate(480deg) translate(100px);
+}
+
+
+.footer {
+  color: #ffffff;
+  font-family: "Open sans";
+}
+
+.footer_text-title {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer_text-desc {
+  font-size: 12px;
+  max-width: 305px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
 
 // .header-logo-nav{
 //   display: flex;
