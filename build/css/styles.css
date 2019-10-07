@@ -664,6 +664,7 @@ img {
   transform: rotate(296deg) translate(375px);
   color: #d5d5d5;
   width: 20px;
+  transition: all 2s;
 }
 
 .item-1:hover {
@@ -708,6 +709,7 @@ img {
   /* transition: all 2s; */
   color: #d5d5d5;
   font-size: 15.5px;
+  transition: all 2s;
 }
 
 .item-3:hover {
@@ -735,10 +737,28 @@ img {
   transform: rotate(277deg) translate(375px);
   color: #d5d5d5;
   font-size: 15.5px;
+  transition: all 2s;
 }
 
 .item-4:hover {
   color: #bb8caa;
+  transform: rotate(269deg) translate(375px);
+}
+
+.item-4:hover ~ .item-5 {
+  transform: rotate(261deg) translate(375px);
+}
+
+.item-4:hover ~ .item-6 {
+  transform: rotate(253deg) translate(375px);
+}
+
+.item-4:hover ~ .item-7 {
+  transform: rotate(245deg) translate(375px);
+}
+
+.item-4:hover ~ .item-8 {
+  transform: rotate(237deg) translate(375px);
 }
 
 .item-4:hover .pre_title-2007 {
@@ -760,6 +780,7 @@ img {
   transform: rotate(269deg) translate(375px);
   color: #d5d5d5;
   font-size: 15.5px;
+  transition: all 2s;
 }
 
 .item-5:hover {
@@ -785,6 +806,7 @@ img {
   transform: rotate(261deg) translate(375px);
   color: #d5d5d5;
   font-size: 15.5px;
+  transition: all 2s;
 }
 
 .item-6:hover {
@@ -803,8 +825,9 @@ img {
 }
 
 .item-7 {
-  transform: rotate(-107deg) translate(375px);
+  transform: rotate(253deg) translate(375px);
   color: #d5d5d5;
+  transition: all 2s;
 }
 
 .item-7:hover {
@@ -823,8 +846,9 @@ img {
 }
 
 .item-8 {
-  transform: rotate(966deg) translate(375px);
+  transform: rotate(245deg) translate(375px);
   color: #d5d5d5;
+  transition: all 2s;
 }
 
 .item-8:hover {
@@ -845,6 +869,7 @@ img {
 .item-9 {
   transform: rotate(599deg) translate(385px);
   color: #d5d5d5;
+  transition: all 2s;
 }
 
 .item-9:hover {

@@ -184,6 +184,7 @@
   transform: rotate(296deg) translate(375px);
   color: #d5d5d5;
   width: 20px;
+  transition: all 2s;
 
   &:hover {
     color: #bb8caa;
@@ -248,6 +249,7 @@
   /* transition: all 2s; */
   color: #d5d5d5;
   font-size: 15.5px;
+  transition: all 2s;
 
   &:hover {
     color: #bb8caa;
@@ -278,10 +280,27 @@
   transform: rotate(277deg) translate(375px);
   color: #d5d5d5;
   font-size: 15.5px;
+  transition: all 2s;
 
   &:hover {
     color: #bb8caa;
+    transform: rotate(269deg) translate(375px);
+  }
 
+  &:hover~.item-5 {
+    transform: rotate(261deg) translate(375px);
+  }
+
+  &:hover~.item-6 {
+    transform: rotate(253deg) translate(375px);
+  }
+
+  &:hover~.item-7 {
+    transform: rotate(245deg) translate(375px);
+  }
+
+  &:hover~.item-8 {
+    transform: rotate(237deg) translate(375px);
   }
 
   &:hover .pre_title-2007 {
@@ -304,6 +323,7 @@
   transform: rotate(269deg) translate(375px);
   color: #d5d5d5;
   font-size: 15.5px;
+  transition: all 2s;
 
   &:hover {
     color: #bb8caa;
@@ -331,6 +351,7 @@
   transform: rotate(261deg) translate(375px);
   color: #d5d5d5;
   font-size: 15.5px;
+  transition: all 2s;
 
   &:hover {
     color: #bb8caa;
@@ -351,8 +372,9 @@
 }
 
 .item-7 {
-  transform: rotate(-107deg) translate(375px);
+  transform: rotate(253deg) translate(375px);
   color: #d5d5d5;
+  transition: all 2s;
 
   &:hover {
     color: #bb8caa;
@@ -374,8 +396,9 @@
 
 
 .item-8 {
-  transform: rotate(966deg) translate(375px);
+  transform: rotate(245deg) translate(375px);
   color: #d5d5d5;
+  transition: all 2s;
 
   &:hover {
     color: #bb8caa;
@@ -399,6 +422,7 @@
 .item-9 {
   transform: rotate(599deg) translate(385px);
   color: #d5d5d5;
+  transition: all 2s;
 
   &:hover {
     color: #bb8caa;
