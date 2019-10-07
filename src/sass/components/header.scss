@@ -32,7 +32,7 @@
 .nav_title {
   color: #ffffff;
   font-family: 'Open sans';
-  margin-bottom: 117px;
+  margin-bottom: 217px;
 }
 
 .nav_title_text {
@@ -53,13 +53,12 @@
   font-size: 20px;
   width: 189px;
   margin: auto;
-  margin-bottom: 192px;
+  margin-bottom: 246px;
 }
 
 .pre_title-2001 {
-  opacity: none;
+
   display: none;
-  margin-bottom: 133px;
 
 }
 
@@ -88,14 +87,13 @@
   background: linear-gradient(-3deg, rgb(255, 175, 227) 0%, rgb(250, 44, 176) 100%);
   background: linear-gradient(-3deg, rgb(255, 175, 227) 0%, rgb(250, 44, 176) 100%);
   position: absolute;
-  left: 24px;
+  left: -47px;
   bottom: 28px;
 }
 
 .pre_title-descr {
   font-size: 10px;
   color: #bb9eb1;
-  margin-left: 81px;
 }
 
 .pre_title-2004 {
@@ -104,17 +102,8 @@
   margin-bottom: 45px;
 }
 
-.pre_title-2006 {
-  opacity: none;
-  display: none;
-  margin-bottom: 45px;
-}
 
-.pre_title-2007 {
-  opacity: none;
-  display: none;
-  margin-bottom: 45px;
-}
+
 
 
 
@@ -125,9 +114,8 @@
 }
 
 .pre_title-2015 {
-  opacity: none;
   display: none;
-  margin-bottom: 45px;
+
 }
 
 .pre_title-2017 {
@@ -137,9 +125,9 @@
 }
 
 .pre_title-today {
-  opacity: none;
+
   display: none;
-  margin-bottom: 45px;
+
 }
 
 .block_timeline {
@@ -198,19 +186,37 @@
   width: 20px;
 
   &:hover {
-    transform: rotate(-5deg) translate(100px);
+    color: #bb8caa;
 
-    &:hover~.item-2 {
-      background-color: red;
-      transform: rotate(60deg) translate(100px);
-    }
+  }
 
-    &:hover~.item-3 {
-      background-color: blue;
-      transform: rotate(60deg) translate(100px);
-    }
+  &:hover .pre_title-2001 {
+    display: block;
+    opacity: 1;
+    /* display: block; */
+    transform: rotate(64deg) translate(-183px, -143px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
+
   }
 }
+
+// &:hover {
+//   transform: rotate(-5deg) translate(100px);
+
+//   &:hover~.item-2 {
+//     background-color: red;
+//     transform: rotate(60deg) translate(100px);
+//   }
+
+//   &:hover~.item-3 {
+//     background-color: blue;
+//     transform: rotate(60deg) translate(100px);
+//   }
+// }
+
 
 
 .item-2 {
@@ -218,6 +224,23 @@
   /* transition: all 2s; */
   color: #d5d5d5;
   font-size: 15.5px;
+
+  &:hover {
+    color: #bb8caa;
+
+  }
+
+  &:hover .pre_title-2004 {
+    display: block;
+    opacity: 1;
+    /* display: block; */
+    transform: rotate(69deg) translate(-153px, -143px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
+
+  }
 }
 
 .item-3 {
@@ -225,12 +248,56 @@
   /* transition: all 2s; */
   color: #d5d5d5;
   font-size: 15.5px;
+
+  &:hover {
+    color: #bb8caa;
+
+  }
+
+  &:hover .pre_title-2006 {
+    display: block;
+    opacity: 1;
+    /* display: block; */
+    transform: rotate(75deg) translate(-89px, -131px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
+
+  }
 }
+
+.pre_title-2006 {
+  opacity: none;
+  display: none;
+  margin-bottom: 45px;
+}
+
 
 .item-4 {
   transform: rotate(277deg) translate(375px);
   color: #d5d5d5;
   font-size: 15.5px;
+
+  &:hover {
+    color: #bb8caa;
+
+  }
+
+  &:hover .pre_title-2007 {
+    display: block;
+    opacity: 1;
+    /* display: block; */
+    transform: rotate(84deg) translate(-44px, -109px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
+  }
+}
+
+.pre_title-2007 {
+  display: none;
 }
 
 .item-5 {
@@ -240,41 +307,117 @@
 
   &:hover {
     color: #bb8caa;
+
   }
 
-  &:hover~.pre_title-2011 {
+  &:hover .pre_title-2011 {
     display: block;
     opacity: 1;
-    display: block;
+    /* display: block; */
+    transform: rotate(91deg) translate(9px, -109px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
   }
 }
 
 .pre_title-2011 {
-  display: block;
-  opacity: 0;
-  margin-bottom: 45px;
+  display: none;
+
 }
 
 .item-6 {
   transform: rotate(261deg) translate(375px);
   color: #d5d5d5;
   font-size: 15.5px;
+
+  &:hover {
+    color: #bb8caa;
+
+  }
+
+  &:hover .pre_title-2012 {
+    display: block;
+    opacity: 1;
+    /* display: block; */
+    transform: rotate(99deg) translate(56px, -120px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
+
+  }
 }
 
 .item-7 {
   transform: rotate(-107deg) translate(375px);
   color: #d5d5d5;
+
+  &:hover {
+    color: #bb8caa;
+
+  }
+
+  &:hover .pre_title-2015 {
+    display: block;
+    opacity: 1;
+    /* display: block; */
+    transform: rotate(107deg) translate(107px, -136px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
+
+  }
 }
+
 
 .item-8 {
   transform: rotate(966deg) translate(375px);
   color: #d5d5d5;
+
+  &:hover {
+    color: #bb8caa;
+
+  }
+
+  &:hover .pre_title-2017 {
+    display: block;
+    opacity: 1;
+    /* display: block; */
+    transform: rotate(113deg) translate(157px, -145px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
+
+  }
 }
+
 
 .item-9 {
   transform: rotate(599deg) translate(385px);
   color: #d5d5d5;
+
+  &:hover {
+    color: #bb8caa;
+
+  }
+
+  &:hover .pre_title-today {
+    display: block;
+    opacity: 1;
+    /* display: block; */
+    transform: rotate(120deg) translate(254px, -101px);
+    padding-right: -5px;
+    position: absolute;
+    left: -43px;
+    transition: all 4s;
+
+  }
 }
+
 
 .footer {
   color: #ffffff;
