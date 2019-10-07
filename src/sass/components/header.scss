@@ -146,9 +146,9 @@
 .circle {
   display: block;
   width: 668px;
-  height: 689px;
+  height: 684px;
   position: relative;
-  margin-left: -228px;
+  margin-left: -244px;
   border-radius: 135%;
   border: solid 1px white;
 }
@@ -178,6 +178,10 @@
 .circle:hover>.item {
   visibility: visible;
   opacity: 1;
+}
+
+.item-4:hover .item-3 {
+  color: blueviolet;
 }
 
 .item-1 {
@@ -222,13 +226,16 @@
 
 .item-2 {
   transform: rotate(291deg) translate(375px);
-  /* transition: all 2s; */
+  transition: all 2s;
   color: #d5d5d5;
   font-size: 15.5px;
 
   &:hover {
     color: #bb8caa;
+  }
 
+  &:hover .item-1 {
+    transform: rotate(253deg) translate(375px);
   }
 
   &:hover .pre_title-2004 {
@@ -253,8 +260,15 @@
 
   &:hover {
     color: #bb8caa;
-
+    transform: rotate(277deg) translate(375px);
   }
+
+  &:hover .item-2 {
+    transform: rotate(269deg) translate(375px);
+  }
+
+
+
 
   &:hover .pre_title-2006 {
     display: block;
@@ -282,6 +296,7 @@
   font-size: 15.5px;
   transition: all 2s;
 
+
   &:hover {
     color: #bb8caa;
     transform: rotate(269deg) translate(375px);
@@ -303,6 +318,22 @@
     transform: rotate(237deg) translate(375px);
   }
 
+  &:hover~.item-9 {
+    transform: rotate(229deg) translate(375px);
+  }
+
+  &:hover~.item-3 {
+    transform: rotate(277deg) translate(375px);
+  }
+
+  &:hover~.item-2 {
+    transform: rotate(285deg) translate(375px);
+  }
+
+  &:hover~.item-1 {
+    transform: rotate(293deg) translate(375px);
+  }
+
   &:hover .pre_title-2007 {
     display: block;
     opacity: 1;
@@ -314,6 +345,7 @@
     transition: all 4s;
   }
 }
+
 
 .pre_title-2007 {
   display: none;
@@ -420,7 +452,7 @@
 
 
 .item-9 {
-  transform: rotate(599deg) translate(385px);
+  transform: rotate(237deg) translate(385px);
   color: #d5d5d5;
   transition: all 2s;
 

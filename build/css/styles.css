@@ -627,9 +627,9 @@ img {
 .circle {
   display: block;
   width: 668px;
-  height: 689px;
+  height: 684px;
   position: relative;
-  margin-left: -228px;
+  margin-left: -244px;
   border-radius: 135%;
   border: solid 1px white;
 }
@@ -660,6 +660,10 @@ img {
   opacity: 1;
 }
 
+.item-4:hover .item-3 {
+  color: blueviolet;
+}
+
 .item-1 {
   transform: rotate(296deg) translate(375px);
   color: #d5d5d5;
@@ -684,13 +688,17 @@ img {
 
 .item-2 {
   transform: rotate(291deg) translate(375px);
-  /* transition: all 2s; */
+  transition: all 2s;
   color: #d5d5d5;
   font-size: 15.5px;
 }
 
 .item-2:hover {
   color: #bb8caa;
+}
+
+.item-2:hover .item-1 {
+  transform: rotate(253deg) translate(375px);
 }
 
 .item-2:hover .pre_title-2004 {
@@ -714,6 +722,11 @@ img {
 
 .item-3:hover {
   color: #bb8caa;
+  transform: rotate(277deg) translate(375px);
+}
+
+.item-3:hover .item-2 {
+  transform: rotate(269deg) translate(375px);
 }
 
 .item-3:hover .pre_title-2006 {
@@ -759,6 +772,22 @@ img {
 
 .item-4:hover ~ .item-8 {
   transform: rotate(237deg) translate(375px);
+}
+
+.item-4:hover ~ .item-9 {
+  transform: rotate(229deg) translate(375px);
+}
+
+.item-4:hover ~ .item-3 {
+  transform: rotate(277deg) translate(375px);
+}
+
+.item-4:hover ~ .item-2 {
+  transform: rotate(285deg) translate(375px);
+}
+
+.item-4:hover ~ .item-1 {
+  transform: rotate(293deg) translate(375px);
 }
 
 .item-4:hover .pre_title-2007 {
@@ -867,7 +896,7 @@ img {
 }
 
 .item-9 {
-  transform: rotate(599deg) translate(385px);
+  transform: rotate(237deg) translate(385px);
   color: #d5d5d5;
   transition: all 2s;
 }
