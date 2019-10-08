@@ -669,6 +669,7 @@ img {
   color: #d5d5d5;
   width: 20px;
   transition: all 2s;
+  opacity: 1;
 }
 
 .item-1:hover {
@@ -722,7 +723,7 @@ img {
 
 .item-3:hover {
   color: #bb8caa;
-  transform: rotate(27deg) translate(375px);
+  transform: rotate(277deg) translate(375px);
 }
 
 .item-3:hover ~ .item-2 {
@@ -792,6 +793,14 @@ img {
 
 .item-4:hover ~ .item-1 {
   transform: rotate(293deg) translate(375px);
+}
+
+.item-4:hover .blackbox {
+  width: 56px;
+  height: 300px;
+  background-color: #1ebd56;
+  left: -46px;
+  position: absolute;
 }
 
 .item-4:hover .pre_title-2007 {
