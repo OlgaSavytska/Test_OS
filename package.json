@@ -48,6 +48,6 @@
     "lodash.merge": "^4.6.2",
     "lodash.mergewith": "^4.6.2",
     "mixin-deep": "^2.0.1",
-    "set-value": "^3.0.1"
+    "set-value": "^4.0.1"
   }
 }
